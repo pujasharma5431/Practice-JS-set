@@ -10,8 +10,15 @@ console.log(typeof(b));
 
 // Q3 Create a const object in javascript. Can you change it to hold a number later?
 
-const pi=3.14;
+const pi={
+    pin:3.14,
+    name: "Puja" 
+}
 // pi=9.2;[No we cannnot]
-console.log(pi)
+// console.log(pi)
 
 // Q4 Try to add a new key to the const object in Problem 3 were you able to do it?
+
+pi['name']='AG'
+
+console.log(pi)
