@@ -35,12 +35,24 @@
 // Q3. Write a JavaScript program to find wheather a number is Divisible by 2 and 3.
 
 
+// let a= prompt("Enter a number")
+// a=Number.parseInt(a)
+// if(a%2==0 && a%3== 0){
+
+//     console.log("a is divisble by 2 and 3")
+// }
+// else(
+//     console.log("Not divisble by 2 and 3")
+// )
+
+// Q4. Writer a Javascript program to find whether a number is divisible by either 2 or 3
 let a= prompt("Enter a number")
 a=Number.parseInt(a)
-if(a%2==0 && a%3== 0){
+if(a%2==0 || a%3== 0){
 
     console.log("a is divisble by 2 and 3")
 }
 else(
     console.log("Not divisble by 2 and 3")
 )
+
