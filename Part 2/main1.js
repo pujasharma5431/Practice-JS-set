@@ -46,13 +46,22 @@
 // )
 
 // Q4. Writer a Javascript program to find whether a number is divisible by either 2 or 3
-let a= prompt("Enter a number")
-a=Number.parseInt(a)
-if(a%2==0 || a%3== 0){
+// let a= prompt("Enter a number")
+// a=Number.parseInt(a)
+// if(a%2==0 || a%3== 0){
 
-    console.log("a is divisble by 2 and 3")
+//     console.log("a is divisble by 2 and 3")
+// }
+// else(
+//     console.log("Not divisble by 2 and 3")
+// )
+
+// Q5. Print "You can Drive" or "You cannot Drive" based on age being greater than 18 using ternary operator 
+
+let age=prompt("Enter your age")
+if(age>=18){
+    console.log("You can drive")
 }
 else(
-    console.log("Not divisble by 2 and 3")
+    console.log("You cannot drive")
 )
-
