@@ -11,24 +11,36 @@
 
 // Q2. Demostarate the use of Switch Case Statements in JavaScript
 
-let day =prompt("Enter the day");
-day=Number.parseInt(day)1
-switch(day){
-    case 1:
-        console.log("1st day is Sunday")
-        break;
-        case 2:
-            console.log("Monday")
-            break;
+// let day =prompt("Enter the day");
+// day=Number.parseInt(day)
+// switch(day){
+//     case 1:
+//         console.log("1st day is Sunday")
+//         break;
+//         case 2:
+//             console.log("Monday")
+//             break;
           
-            case 3:
-                console.log("Tuesday")
-                break;1
+//             case 3:
+//                 console.log("Tuesday")
+//                 break;1
                
 
-                default:
-                    console.log("Doesn't exist")
+//                 default:
+//                     console.log("Doesn't exist")
+
+// }
 
 
+// Q3. Write a JavaScript program to find wheather a number is Divisible by 2 and 3.
 
+
+let a= prompt("Enter a number")
+a=Number.parseInt(a)
+if(a%2==0 && a%3== 0){
+
+    console.log("a is divisble by 2 and 3")
 }
+else(
+    console.log("Not divisble by 2 and 3")
+)
