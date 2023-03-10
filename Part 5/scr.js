@@ -26,8 +26,16 @@
 
 // Q3. filter for numbers divisible by 10 from a given array
 
-let num=[2,5,4,10,15];
-let num1=num.filter((values)=>{
-    return values%10 ==0;
+// let num=[2,5,4,10,15];
+// let num1=num.filter((values)=>{
+//     return values%10 ==0;
+// })
+// console.log(num1)
+
+// Q4. Create an array of square of  a given number
+
+let a=[2,3,4]
+let a1=a.map((s)=>{
+    return s*s
 })
-console.log(num1)
+console.log(a1);
