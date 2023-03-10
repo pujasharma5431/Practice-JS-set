@@ -34,8 +34,18 @@
 
 // Q4. Create an array of square of  a given number
 
-let a=[2,3,4]
-let a1=a.map((s)=>{
-    return s*s
+// let a=[2,3,4];
+// let a1=a.map((s)=>{
+//     return s*s
+// })
+// console.log(a1);
+
+
+// Q5. Use reduce to  calculate factorial of a given number from an array of first n natural numbers[n being the number whose factrial needs to be calcualted]
+
+let n=[1,2,3,4,5]
+let n1=n.reduce((a1,a2)=>{
+    return a1*a2
+
 })
-console.log(a1);
+console.log(n1);
