@@ -2,8 +2,22 @@
 // Q1. Create an array of numbers and take input from the user to add numbers to this array
 
 
+// let array=[1,2,3,4,5];
+// let a= prompt("Enter a number");
+// a=Number.parseInt(a);
+// array.push(a);
+// console.log(array);
+
+// Q2. Keep adding numbers to the array in Q1 until 0 is added to the array
+
+
 let array=[1,2,3,4,5];
-let a= prompt("Enter a number");
+let a;
+do{
+    a= prompt("Enter a number");
 a=Number.parseInt(a);
 array.push(a);
 console.log(array);
+
+}
+while(a!=0);
