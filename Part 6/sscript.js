@@ -2,26 +2,26 @@
 // <!-- Write a program using prompt function to take input of age as a value from the user and use alert to tell him if he can drive -->
 
 
-// let age=prompt("Enter your age");
-// age=Number.parseInt(age)
-// if(age>=18){
-//     alert("You can drive")
-// }
-// else{
-//     alert("You cannot drive")
-// }
+let age=prompt("Enter your age");
+age=Number.parseInt(age)
+if(age>=18){
+    alert("You can drive")
+}
+else{
+    alert("You cannot drive")
+}
 
-// let age=prompt("Enter your age")
-// age=Number.parseInt(age);
-// const canDrive=(age)=>{
-//     age>=18;
-// }
-// if(canDrive(age)){
-//     alert("You can drive")
-// }
-// else{
-//     alert("You cannot drive")
-// }
+let age=prompt("Enter your age")
+age=Number.parseInt(age);
+const canDrive=(age)=>{
+    age>=18;
+}
+if(canDrive(age)){
+    alert("You can drive")
+}
+else{
+    alert("You cannot drive")
+}
 
 
 // Q2. If Q1 use confirm to ask the user if he wants to see the prompt again
@@ -50,8 +50,8 @@ else{
 runAgain=confirm("You want to run again")
 }
 
-// Q3. Display error message if you enter age less than 18
-// Q2. If Q1 use confirm to ask the user if he wants to see the prompt again
+// // Q3. Display error message if you enter age less than 18
+// // Q2. If Q1 use confirm to ask the user if he wants to see the prompt again
 
 
 let age2=prompt("Enter your age");
@@ -76,3 +76,17 @@ else{
 
 runAgain=confirm("You want to run again")
 }
+
+
+// Write a program to change the url to google.com if user enters a number greater thAN 4
+
+let eage=prompt("Enter your age");
+eage=Number.parseInt(eage);
+
+if(eage>=18){
+    alert("You can drive")
+}
+else{
+    location.href="https://www.google.com/"
+}
+
