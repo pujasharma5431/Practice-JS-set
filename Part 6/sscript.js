@@ -49,3 +49,30 @@ else{
 
 runAgain=confirm("You want to run again")
 }
+
+// Q3. Display error message if you enter age less than 18
+// Q2. If Q1 use confirm to ask the user if he wants to see the prompt again
+
+
+let age2=prompt("Enter your age");
+age2=Number.parseInt(age2);
+let runAgain1=true;
+
+while(runAgain1){
+
+
+
+const canDrive1=(age1)=>{
+return (age2>=18)
+}
+
+
+if(canDrive(age2)){
+    alert("You can drive")
+}
+else{
+    error("You cannot drive")
+}
+
+runAgain=confirm("You want to run again")
+}
